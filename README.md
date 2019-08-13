@@ -22,10 +22,14 @@
  
 ## Implementation Timeline
 * Day 1
-Gain access to CoinIndex api, decide on style of graph and research implementation
+
+   * Gain access to CoinIndex api, decide on style of graph and research implementation
 * Day 2-3
-Have a prototype BTC graph, fully styled and interactive
+
+   * Have a prototype BTC graph, fully styled and interactive
 * Day 4
-Add an average price of all alt coins to compare vs btc, in order to indentify so called "alt season"
+
+   * Add an average price of all alt coins to compare vs btc, in order to indentify so called "alt season"
 * Day 5
-Check for bugs, finalize styling and functionality
+
+   * Check for bugs, finalize styling and functionality
