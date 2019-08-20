@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+rect {
+  fill: slategray;
+}
+
+text {
+  font-size: 14px;
+}
