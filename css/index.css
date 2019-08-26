@@ -1,12 +1,10 @@
-body {
-  margin: 0px;
-  overflow: hidden;
+.area {
+  fill: steelblue;
+  clip-path: url(#clip);
 }
 
-rect {
-  fill: slategray;
-}
-
-text {
-  font-size: 14px;
+.zoom {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
 }
