@@ -12,6 +12,7 @@ const svg = d3.select('#root-svg'),
 
 // var parseDate = d3.timeParse("%b %Y");
 
+
 var x = d3.scaleTime().range([0, width]),
     x2 = d3.scaleTime().range([0, width]),
     y = d3.scaleLinear().range([height, 0]),
@@ -49,6 +50,7 @@ svg.append("defs").append("clipPath")
     .attr("width", width)
     .attr("height", height);
 
+
 var focus = svg.append("g")
     .attr("class", "focus")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -57,7 +59,14 @@ var context = svg.append("g")
     .attr("class", "context")
     .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")");
 
-// new Date().getYear() + 1900
+// svg.append("text")
+//     .attr("x", (width / 2))
+//     .attr("y", 0 - (margin.top / 2))
+//     .attr("text-anchor", "middle")
+//     .style("font-size", "16px")
+//     .style("text-decoration", "underline")
+//     .text("BTC Historical Data");
+
 
 d3.csv('./data/btc-usd-max.csv').then(data => {
     // let parseTime = d3.timeFormat("%B %d, %Y");
@@ -135,4 +144,3 @@ function type(d) {
     d.price = +d.price;
     return d;
 }
-
