@@ -4,15 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <title>The 4 Year Cycle</title>
   <link rel="stylesheet" href="./css/index.css">
   <script src="https://d3js.org/d3.v5.js"></script>
 </head>
 <body>
-  <h1 class="title">BTC Historical Data</h1>
-  <span class="instruction">MOUSE WHEEL TO ZOOM</span>
-  <img class= "btc-image" src="https://cdn.pixabay.com/photo/2017/08/14/14/38/bitcoin-2640692_1280.png" alt="image btc">
-  <svg id="root-svg" width="960" height="500"></svg>  
+  <div class="d3-graph">
+  <h1 class="title">The 4 Year Cycle</h1>
+    <span class="instruction">MOUSE WHEEL TO ZOOM</span>
+    <img class= "btc-image" src="https://cdn.pixabay.com/photo/2017/08/14/14/38/bitcoin-2640692_1280.png" alt="image btc">
+    <svg id="root-svg" width="960" height="500"></svg> 
+  </div>
+  <div class="full-instructions">
+    <h2 class="side-instructions-header">Context:</h2>
+    <ul>- Graph represent bitcoin historical date, price in dollars on the y axis</ul>
+    <ul>- User bottom brush to select time period</ul>
+    <ul>- Historical Bitcoin price has a four year cycle from maximum to minimum price</ul>
+    <ul>- A cycle would be from 2014 to 2018. When BTC price was highest. </ul>
+  </div>
   <script type="text/javascript" src="./dist/main.js"></script>
 </body>
 </html>
