@@ -80,4 +80,16 @@ body {
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: steelblue;
+  text-decoration: underline;
+  font-size: 32px;
+}
+
+.social {
+  display: flex;
+  margin: 5px;
+}
+
+.fa {
+  margin: 5px;
+  
 }
