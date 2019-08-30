@@ -90,6 +90,22 @@ body {
 }
 
 .fa {
-  margin: 5px;
-  
+  margin: 15px;
+}
+
+.fa-linkedin {
+  color: rgb(27, 97, 189);
+}
+
+.fa-angellist {
+  color: gray;
+}
+
+.fa-github {
+  color: black;
+}
+
+.a-links {
+  margin-left: 10px;
+  color: rgb(70, 100, 165);
 }
