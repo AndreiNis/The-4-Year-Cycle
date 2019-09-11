@@ -109,3 +109,8 @@ body {
   margin-left: 10px;
   color: rgb(70, 100, 165);
 }
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
